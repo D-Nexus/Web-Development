@@ -1,5 +1,8 @@
 html{
     background-image: url(img/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
     background-size: cover;
 }
 @font-face {
@@ -27,6 +30,53 @@ p{
 }
 div.imagen{
     text-align: center;
+}
+p.poema{
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+    display: inline-block;
+}
+img.gif{
+    float:right;
+    border: 5px solid white;
+}
+.sub{
+    color: rgb(255, 255, 255);
+    font-weight: border;
+    text-align: center;
+    font-family: bit;
+    background: -webkit-linear-gradient(rgb(0, 255, 255),rgb(0, 255, 136));
+    -webkit-background-clip: text;
+    text-decoration: underline;
+    -webkit-text-fill-color: transparent;
+    font-size: larger;
+}
+img.gif2{
+    float:left;
+    border: 5px solid white;
+}
+.sub3{
+    color: rgb(255, 255, 255);
+    font-weight: border;
+    text-align: center;
+    font-family: bit;
+    background: -webkit-linear-gradient(rgb(0, 255, 255),rgb(0, 255, 136));
+    -webkit-background-clip: text;
+    text-decoration: underline;
+    -webkit-text-fill-color: transparent;
+    font-size: larger;
+}
+ul{
+    font-size: large;
+    font-style: italic;
+    display: inline-block;
+    color: rgb(253, 210, 146);
+    font-family: bit2;
+    margin-left: 200px;
+}
+li{
+    padding-left: 30px;
 }
 
 
